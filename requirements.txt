@@ -1,8 +1,0 @@
-subprocess
-os
-google.generativeai 
-colorama 
-platform
-psutil
-ctypes
-sys
