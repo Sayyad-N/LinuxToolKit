@@ -1,10 +1,10 @@
-# 🛠️ Linux ToolKit | أدوات لينكس المتقدمة
+# 🛠️ Linux ToolKit | أدوات لينكس المتقدمة V3 التحديث الجديد
 
 ## النسخة العربية
 
 **المطور:** SayyadN  
-**تاريخ الإصدار:** 09/04/2025  
-**الإصدار:** 2.0
+**تاريخ الإصدار:** 08/06/2025  
+**الإصدار:** 3.0
 
 ---
 
@@ -14,41 +14,27 @@ Linux ToolKit هي أداة متكاملة على واجهة الأوامر تج
 
 - 🔧 **إدارة الحزم:** تثبيت، إزالة وتحديث الحزم بنقرة واحدة.
 - 📦 **الترقيات الشاملة:** تحديث كامل للنظام بكفاءة عالية.
-- 🌐 **تشخيص الشبكات:** أدوات متقدمة لتحليل الاتصال وإنشاء نقاط اتصال.
+- **واجهة رسوميه** : واجهة رسوميه سهلة اﻻستخدام
+- **نظام إداره المستخدمين ** : اﻻداه بها نظام اﻻداره المستخدمين و التحكم بهم
 - 💡 **مساعدة ذكية:** اقتراحات وحلول فورية مستندة على قوة Google Gemini.
-- 📊 **معلومات النظام:** تقارير شاملة وتنظيف تلقائي للنظام.
+- 📊 **معلومات النظام:** تقارير شاملة للنظام.
 
-> ⚡ **ارتق بإنتاجيتك مع مساعد CLI تفاعلي وجذاب!**
+> ⚡ **ارتق بإنتاجيتك مع مساعد ذكي ذو واجهة بسيطه ومدعوم بالذكاء اﻻصطناعي تفاعلي وجذاب!**
 
----
-
-### 📋 الميزات
-
-| الميزة             | الوصف بالعربية                                  |
-|--------------------|-----------------------------------------------|
-| 🧠 مساعد ذكي       | اقتراحات ذكية لحل المشاكل                        |
-| 📦 إدارة الحزم     | إدارة كاملة للحزم                               |
-| 🖥️ معلومات النظام | عرض مواصفات النظام بتفصيل                        |
-| 🧹 تنظيف النظام   | تنظيف عميق للنظام                               |
-| 🌐 أدوات الشبكة   | أدوات متكاملة لتحليل الشبكة وإنشاء نقاط اتصال      |
-| 🔒 فحص الصلاحيات   | إعادة تشغيل بصلاحيات الروت عند الحاجة            |
-
----
 
 ### 🚀 الاستخدام
 
 لتشغيل الأداة، قم بالخطوات التالية:
 
 1. **تثبيت المكتبات المطلوبة:**
-    ```bash
-    chmod +x ./install_libs.sh
-    ./install_libs.sh
-    ```
-
-2. **تشغيل الأداة:**
-    ```bash
-    python3 LinuxToolKit.py
-    ```
+```bash
+sudo bash setup.sh
+```
+3. **تشغيل الأداة:**
+- تعتمده علي صلاحيات الروت ( ملحوظه الذكاء اﻻصطناعي تحت التطوير وقد يحدث أخطاء اثناء تشغيله في الروت) ويمكنك كتابه linux لتعمل اﻻداه 
+```bash
+linux
+```
 
 استمتع بتجربة لينكس مميزة ومبتكرة!
 
@@ -57,8 +43,8 @@ Linux ToolKit هي أداة متكاملة على واجهة الأوامر تج
 ## English Version
 
 **Developer:** SayyadN  
-**Release Date:** 09/04/2025  
-**Version:** 2.0
+**Release Date:** 08/06/2025  
+**Version:** 3.0
 
 ---
 
@@ -66,43 +52,29 @@ Linux ToolKit هي أداة متكاملة على واجهة الأوامر تج
 
 Linux ToolKit is a comprehensive command-line tool that makes your Linux experience stand out by offering:
 
-- 🔧 **Package Management:** Install, remove, and update packages with one click.
-- 📦 **System Upgrades:** Complete system updates with high efficiency.
-- 🌐 **Network Diagnostics:** Advanced tools for connectivity analysis and hotspot creation.
-- 💡 **Smart Assistance:** Instant suggestions and solutions powered by Google Gemini.
-- 📊 **System Information:** Detailed reports and automatic system cleanup.
+- 🔧 **Package Management:** Install, remove, and update packages with a single click.
+- 📦 **Comprehensive Upgrades:** Complete system updates with high efficiency.
+- **Graphical Interface**: An easy-to-use graphical interface.
+- **User Management System**: The tool has a user management and control system.
+- 💡 **Smart Help:** Instant suggestions and solutions based on the power of Google Gemini.
+- 📊 **System Information:** Comprehensive system reports.
 
-> ⚡ **Boost your productivity with an interactive and engaging CLI assistant!**
-
----
-
-### 📋 Features
-
-| Feature              | Description                                           |
-|----------------------|-------------------------------------------------------|
-| 🧠 Smart Assistant   | Intelligent suggestions to fix errors                 |
-| 📦 Package Management| Full package management                               |
-| 🖥️ System Information | Display detailed system specifications             |
-| 🧹 System Cleanup    | Deep cleanup of unnecessary packages                  |
-| 🌐 Network Tools     | Integrated tools for network analysis and hotspot creation |
-| 🔒 Privilege Check   | Auto relaunch as root when required                   |
-
----
+> ⚡ **Increase your productivity with a simple, intuitive, and engaging AI-powered smart assistant!**
 
 ### 🚀 Usage
 
 To run the tool, follow these steps:
 
 1. **Install the required libraries:**
-    ```bash
-    chmod +x ./install_libs.sh
-    ./install_libs.sh
-    ```
+```bash
+sudo bash setup.sh
+```
 
 2. **Run the tool:**
-    ```bash
-    python3 LinuxToolKit.py
-    ```
+- It relies on root privileges (Note: The AI ​​is under development and errors may occur while running it with root access). You can type linux to run the tool:
+```bash
+linux
+```
 
 Enjoy a unique and innovative Linux experience!
 
